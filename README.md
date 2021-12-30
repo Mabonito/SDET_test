@@ -16,4 +16,4 @@ After downloading eclipse tar file follow the below commands on your terminal :
     $ cd eclipse-install
     $ ./eclipse-inst
 
-After the all extraction ###Install and Launch
+After the all extraction **Install and Launch**
