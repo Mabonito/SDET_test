@@ -54,10 +54,11 @@ Then click **Libraries**
 
 Then click **Add Libraries**
 
-
+* * *
 
 ![image](https://user-images.githubusercontent.com/49020846/147746654-25d59c06-d0cc-46a1-9319-7fd9b403746c.png)
 
+* * *
 
 On the following pop-up proceed to click the Library **TestNG**
 
@@ -67,9 +68,12 @@ Then click **Next**
 
 Then on the above pop-up proceed to click **Apply and Close**
 
-
+* * *
 
 ![image](https://user-images.githubusercontent.com/49020846/147746758-e73c29d9-53e4-4c0a-969c-4474c3f90776.png)
+
+* * *
+
 
 
 
