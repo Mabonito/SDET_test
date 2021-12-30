@@ -13,3 +13,7 @@ Link to dounload Eclipse https://www.eclipse.org/downloads/
 After downloading eclipse tar file follow the below commands on your terminal :
 
     $ tar zxf eclipse-inst-jre-linux64.tar.
+    $ cd eclipse-install
+    $ ./eclipse-inst
+
+After the all extraction ####Install and Launch
