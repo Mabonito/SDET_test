@@ -43,7 +43,8 @@ On the **Eclipse Marketplace** pop-up navitagate to the search fild and type Tes
 
 Proceed to install TestNG for Eclipse.
 
-https://screenrec.com/share/KJ8Pvg5TGN
+![image](https://user-images.githubusercontent.com/49020846/147746227-af414d31-a4c1-45d4-a878-90ec0282816d.png)
+
 
 
 
