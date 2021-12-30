@@ -127,6 +127,14 @@ To see the report of the test cases with details on what was the input that was 
 
 A browser will open with the report of the of the test.
 
+A report of this manner will show up on your browser.
+
+* * *
+
+![image](https://user-images.githubusercontent.com/49020846/147749809-2adf47f0-b171-4040-ad38-8a287a3d335f.png)
+
+* * *
+
 
 
 
