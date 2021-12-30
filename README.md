@@ -48,6 +48,12 @@ Proceed to install TestNG for Eclipse.
 
 Right click the and proceed to click **Bild Path** >> **Configure Build Path...**
 
+On the following pop-up click **Java Build Path**
+
+Then click **Libraries**
+
+Then click **Add Libraries**
+
 
 
 ![image](https://user-images.githubusercontent.com/49020846/147746654-25d59c06-d0cc-46a1-9319-7fd9b403746c.png)
