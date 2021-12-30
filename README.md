@@ -10,3 +10,6 @@ Java 1.7+ is required for running the TestNG for Eclipse plugin. Eclipse 4.2 and
 
 Link to dounload Eclipse https://www.eclipse.org/downloads/
 
+After downloading eclipse tar file follow the below commands on your terminal :
+
+  $ tar zxf eclipse-inst-jre-linux64.tar.
