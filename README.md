@@ -36,15 +36,21 @@ Then the application should be available at http://localhost:8088 (a Spring whit
 
 Click the **HELP** icon and proceed to **Eclipse Marketplace...**
 
+* * *
+
 ![image](https://user-images.githubusercontent.com/49020846/147745427-209dfeec-75db-4b0f-82d1-b0693011f75a.png)
 
+* * *
 
 On the **Eclipse Marketplace** pop-up navitagate to the search fild and type TestNG and proceed to search.
 
 Proceed to install TestNG for Eclipse.
 
+* * *
+
 ![image](https://user-images.githubusercontent.com/49020846/147746227-af414d31-a4c1-45d4-a878-90ec0282816d.png)
 
+* * *
 
 Right click the and proceed to click **Bild Path** >> **Configure Build Path...**
 
@@ -73,6 +79,59 @@ Then on the above pop-up proceed to click **Apply and Close**
 ![image](https://user-images.githubusercontent.com/49020846/147746758-e73c29d9-53e4-4c0a-969c-4474c3f90776.png)
 
 * * *
+
+A warning will pop-up during the installation phase proceed to install anyways.
+
+A pop-up to restart Eclipse IDE so that the installations can take effect proceed to restart.
+
+
+# RUNNING REST-ASSURED API TEST
+
+* * *
+
+Upon the relunch of Eclipse IDE, **TestNG** will be amongst the Libraries of the project.
+
+As per below Screenshot open the folder **src/test/java**.
+
+Open the **serviceRequest** pakage under.
+
+Then proceed to double click **postData.java** file to open the file.
+
+* * *
+![image](https://user-images.githubusercontent.com/49020846/147748753-8393d2b4-0948-4186-80bf-dad091dd8a8c.png)
+* * *
+
+
+On the **postData.java** file proceed to right click on the code.
+
+Then proceed to click **Run As**.
+
+Then proceed to click **1 TestNG Test**. 
+
+The test will run for a few seconds and show resulsts on the console.
+
+
+# TEST REPORT
+
+To see the report of the test cases with details on what was the input that was sent to the server : 
+
+1. Right click the the project and refresh the project.
+
+2. Proceed to click **test-output** folder.
+
+3. Then double click **emailable-report.html**.
+
+* * *
+![image](https://user-images.githubusercontent.com/49020846/147749504-ba3ac089-6852-44d4-ab6a-3f2c9f7e319d.png)
+* * *
+
+A browser will open with the report of the of the test.
+
+
+
+
+
+
 
 
 
