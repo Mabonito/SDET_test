@@ -39,7 +39,11 @@ Click the **HELP** icon and proceed to **Eclipse Marketplace...**
 ![image](https://user-images.githubusercontent.com/49020846/147745427-209dfeec-75db-4b0f-82d1-b0693011f75a.png)
 
 
+On the **Eclipse Marketplace** pop-up navitagate to the search fild and type TestNG and proceed to search.
 
+Proceed to install TestNG for Eclipse.
+
+https://screenrec.com/share/KJ8Pvg5TGN
 
 
 
