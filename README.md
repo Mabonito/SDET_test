@@ -22,7 +22,26 @@ On the pop-up select the default workspace or create your own.
 
 # APPLICATION START
 
+* * *
+
+After having docker configured, there is only a command needed to start the application.
+
+       $ docker-compose up
+       
+Then the application should be available at http://localhost:8088 (a Spring whitelabel error is expected)
 
 * * *
 
-* * *
+# ECLIPSE CONFIGURATION
+
+![image](https://user-images.githubusercontent.com/49020846/147745427-209dfeec-75db-4b0f-82d1-b0693011f75a.png)
+
+
+
+
+
+
+
+
+
+
