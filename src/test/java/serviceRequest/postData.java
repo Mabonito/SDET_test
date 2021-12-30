@@ -26,7 +26,7 @@ public class postData {
 		
 		int code = response.getStatusCode();
 		
-		//System.out.println("validUUIDv4_valid \nGiven a valid uuid v4 id\nWhen I do a refund\nI expect a 201 status code got = " + code + "\n" );
+
 		Reporter.log("validUUIDv4_valid - Given a valid uuid v4 id When a refund transaction is initiated the expected status code is 201 and the respose from the server is = " + code );
 		
 		Assert.assertEquals(code, 201);
