@@ -34,6 +34,8 @@ Then the application should be available at http://localhost:8088 (a Spring whit
 
 # ECLIPSE CONFIGURATION
 
+Click the **HELP** icon
+
 ![image](https://user-images.githubusercontent.com/49020846/147745427-209dfeec-75db-4b0f-82d1-b0693011f75a.png)
 
 
