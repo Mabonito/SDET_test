@@ -8,7 +8,7 @@ The application is run on Eclipse that supports TestNG.
 
 Java 1.7+ is required for running the TestNG for Eclipse plugin. Eclipse 4.2 and above is required. Eclipse 3. x is NOT supported any more, please update your Eclipse to 4.2 or above.
 
-Link to dounload Eclipse https://www.eclipse.org/downloads/
+Link to download Eclipse https://www.eclipse.org/downloads/
 
 After downloading eclipse tar file follow the below commands on your terminal :
 
@@ -16,7 +16,7 @@ After downloading eclipse tar file follow the below commands on your terminal :
     $ cd eclipse-install
     $ ./eclipse-inst
 
-After the all extraction **Install and Launch** the application.
+After all extraction **Install and Launch** the application.
 
 On the pop-up select the default workspace or create your own.
 
