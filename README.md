@@ -24,6 +24,10 @@ On the pop-up select the default workspace or create your own.
 
 * * *
 
+Both the server and Eclipse application have to run at simultaneously/parallel.
+
+Docker compose has to be running before the tests are ran.
+
 After having docker configured, there is only a command needed to start the application.
 
        $ docker-compose up
