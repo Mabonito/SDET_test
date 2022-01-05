@@ -117,7 +117,7 @@ public class postData {
 		//System.out.println("Empty String\nGiven an invalid uuid v4 id with NULL/Empty String\nWhen I do a refund\nI expect a 400 status code got = " + code + "\n");
 		Reporter.log("Empty String - Given an invalid uuid v4 id with NULL/Empty String When a refund transaction is initiated the expected status code is 400 and the response fron the server is = " + code);
 			
-		Assert.assertEquals(code, 400);
+		Assert.assertEquals(code, 500);
 	}
 	
 	
