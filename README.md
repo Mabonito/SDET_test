@@ -1,4 +1,36 @@
 # SDET_test
+
+* * *
+# Context 
+
+Our application is a payment gateway which allows merchants to charge their users with a single integration.
+
+Right now we are able to charge users, and we want to add the refund feature.
+
+Following User Story describes the expected behavior and what needs to be tested.
+
+* * *
+
+# User Story
+
+As a Merchant
+
+In order to revert a previous transaction
+
+I need to be able to refund a charge operation by its id.
+
+## Acceptance criteria
+
+   - API should expose the following endpoint POST /operations/{id}/refund
+   - The "id" should be a valid uuid v4 (ex. d1e90d8f-11f7-41e0-92ff-235e2a85ab3b) to get 201 OK
+   - With an invalid uuid you should get a 400
+   - Only one concurrent refund operation (on the same transaction id) can be performed, so the resource should be blocked if another refund is being processed. Failing concurrencies should get a 423
+
+
+
+
+
+* * *
 # REQUREMENTS : 
 The application is prepared to be run using docker-compose. So having docker and docker-compose configured is mandatory.
 
@@ -24,9 +56,9 @@ On the pop-up select the default workspace or create your own.
 
 * * *
 
-Both the server and Eclipse application have to run at simultaneously/parallel.
+### Both the server and Eclipse application have to run simultaneously/parallel.
 
-Docker compose has to be running before the tests are ran.
+**Docker compose has to be running before the tests are ran.**
 
 After having docker configured, there is only a command needed to start the application.
 
@@ -38,7 +70,7 @@ Then the application should be available at http://localhost:8088 (a Spring whit
 
 # ECLIPSE CONFIGURATION
 
-Click the **HELP** icon and proceed to **Eclipse Marketplace...**
+Click the **HELP** icon and **Eclipse Marketplace...** will pop-up
 
 * * *
 
@@ -46,9 +78,9 @@ Click the **HELP** icon and proceed to **Eclipse Marketplace...**
 
 * * *
 
-On the **Eclipse Marketplace** pop-up navitagate to the search fild and type TestNG and proceed to search.
+On the **Eclipse Marketplace** pop-up navitagate to the search field and type TestNG then proceed to search.
 
-Proceed to install TestNG for Eclipse.
+Install TestNG for Eclipse.
 
 * * *
 
@@ -56,7 +88,7 @@ Proceed to install TestNG for Eclipse.
 
 * * *
 
-Right click the and proceed to click **Bild Path** >> **Configure Build Path...**
+Right click the Project then click **Bild Path** >> **Configure Build Path...**
 
 On the following pop-up click **Java Build Path**
 
@@ -70,13 +102,13 @@ Then click **Add Libraries**
 
 * * *
 
-On the following pop-up proceed to click the Library **TestNG**
+On the following pop-up click the Library **TestNG**
 
 
 Then click **Next**
 
 
-Then on the above pop-up proceed to click **Apply and Close**
+Then on the above pop-up click **Apply and Close**
 
 * * *
 
@@ -84,7 +116,7 @@ Then on the above pop-up proceed to click **Apply and Close**
 
 * * *
 
-A warning will pop-up during the installation phase proceed to install anyways.
+A warning Message during the installation phase will pop-up click install anyways.
 
 A pop-up to restart Eclipse IDE so that the installations can take effect proceed to restart.
 
@@ -97,20 +129,20 @@ Upon the relunch of Eclipse IDE, **TestNG** will be amongst the Libraries of the
 
 As per below Screenshot open the folder **src/test/java**.
 
-Open the **serviceRequest** pakage under.
+Then open **serviceRequest** pakage under.
 
-Then proceed to double click **postData.java** file to open the file.
+Click **postData.java** file to open the file.
 
 * * *
 ![image](https://user-images.githubusercontent.com/49020846/147748753-8393d2b4-0948-4186-80bf-dad091dd8a8c.png)
 * * *
 
 
-On the **postData.java** file proceed to right click on the code.
+On the **postData.java** file right click on the code.
 
-Then proceed to click **Run As**.
+Then click **Run As**.
 
-Then proceed to click **1 TestNG Test**. 
+Then click **1 TestNG Test**. 
 
 The test will run for a few seconds and show resulsts on the console.
 
